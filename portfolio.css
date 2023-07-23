@@ -294,13 +294,31 @@ body {
         width: 150px;
         height: auto;
     }
-
     .websiteImage {
         width: 150px;
         height: auto;
         margin-left: 20px;
     }
+    .storeImage {
+        display: none;
+    }
+}
 
+@media only screen and (max-width: 400px) {
+    .subLinkButtons {
+        display: inherit;
+        margin: 10px 20px;
+        padding-bottom: 10px;
+    }
+    .githubImage {
+        width: 110px;
+        height: auto;
+    }
+    .websiteImage {
+        width: 110px;
+        height: auto;
+        margin-left: 20px;
+    }
     .storeImage {
         display: none;
     }
