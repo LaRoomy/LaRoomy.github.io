@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hans Philipp Zimmermann</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="portfolio, Hans, Philipp, Zimmermann, developer, maker">
+        <meta name="description" content="This is the GitHub portfolio of Hans Philipp Zimmermann">
+        <meta name="Author" content="Hans Philipp Zimmermann">
+        <meta charset="utf-8">
+        <link rel="icon" type="image/x-icon" href="res/sq96_favicon.png">
+        <link rel="stylesheet" href="portfolio.css">        
+        <script src="portfolio.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="main">
+            <div id="identPane">
+                <img id="profileImage" src="res/itsme.jpg" alt="profile image"/>
+                <div id="nameContainer">Hans Philipp Zimmermann</div>               
+                <div id="locationContainer">&#8982; Verl, Germany</div>
+                <div id="linkBar">
+                    <a href="https://api.laroomy.com/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/LaRoomy" target="_blank">GitHub</a>
+                </div>
+                <div id="myPersonDescriptionCont">
+                    <p>I am a self taught software developer proficient in many programming languages. I can write apps for Windows, Android and iOS.</p>
+                    <p>Moreover I am able to write software for various microcontoller architectures.</p>
+                    <p>Another skill of mine is electrical engineering. I can do electronic circuit design from prototype to production.</p>
+                </div>
+            </div>
+            <div id="contentPane">
+                <h1>About me</h1>
+                <hr>
+                <div id="aboutMeSection">
+                    <div id="aboutMeHeader">
+                        <p class="interDescP">
+                            In 2010 I started to learn C programming. My motivation was that I needed some software that did not exist. So I decided to create it on my own and while I was doing this I discovered my passion for programming. Since then I have realized countless projects. Therefore I learned several languages targeting a lot of subject areas inluding desktop development, mobile development, embedded development and webdesign..
+                        </p>
+                    </div>
+                    <div id="aboutMeContent">
+                        <div id="myStoryContainer" class="aboutMeInnerContainer">
+                            <h5 id="myStoryHeader" onclick="onMyStoryHeaderClicked()">+ My Story</h5>
+                            <div id="myStoryContent">
+                                <hr>
+                                <p class="interDescP">
+                                    I am not a studied computer scientist or electronics engineer. My actual educational background is that of an industrial mechanic. In 2008 I came to CNC machining through a job change. Since then I work as a CNC programmer and operator.
+                                </p>
+                                <p class="interDescP">
+                                    As already mentioned, I started to deal with programming in 2010. This was not a private decision but had quite practical reasons that concerned my work as a CNC programmer. We had problems to find suitable software to transfer and archive CNC programs with our specific EPL2 controllers to a Windows computer.
+                                </p>
+                                <p class="interDescP">
+                                    So I developed a suitable software. What started as a small project quickly developed into a complex application with far more functions than originally planned. During this project I could learn a lot and discovered my passion for programming. I haven't developed the CNC Suite application for a long time, but I update it from time to time and it is also available in the Windows Store. You can find the resources <a href="#cncSuiteContainer">below in my Portfolio</a>.
+                                </p>
+                                <p class="interDescP">
+                                    Beside the CNC Suite Application I worked on several small Projects to learn more about C++ and C Programming. In this time I discovered embedded programming in C and also in assembly language. In this time I was very interested in assembly language, I bought a book from Daniel Kussworm about modern x86 assembly language programming. You can see results of my experiments in the <a href="https://github.com/search?q=repo%3ALaRoomy%2FCnC-Suite++language%3AAssembly&type=code" target="_blank">CNC Suite application repository</a>.
+                                </p>
+                                <p class="interDescP">
+                                    In 2015 I had the idea to build technical designer furniture. Therefore, I have made myself self-employed part-time. This was for me a great playground where I could develop freely and learned a lot about electronics development, microcontroller programming, manual craft and CAD construction. To present my products and distribute them online I also had to learn the basics in Website programming in HTML, CSS and Javascript. I also learned how to use the 3D printer and how to design 3D models with Fusion 360. A small insight on what I created can be viewed on my <a href="https://laroomy.blogspot.com/" target="_blank">old website</a>. I ended this venture in 2019 as the cost to revenue ratio was not appropriate. But I have gained a lot of knowledge and insight from it.
+                                </p>
+                                <p class="interDescP">
+                                    During this time I also started to deal intensively with Bluetooth hardware and the control through apps. This gave birth to the idea that forms the basis for my current project, the <a href="#laroomySystemContainer">LaRoomy Bluetooth Control System</a>.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="mySkillzContainer" class="aboutMeInnerContainer">
+                            <h5 id="mySkillzHeader" onclick="onMySkillzHeaderClicked()">+ My Skills</h5>
+                            <div id="mySkillzContent">
+                                <hr>
+                                <h6>Programming Knowledge:</h6>
+                                <ul>
+                                    <li>C, C++ and C#</li>
+                                    <li>Android - Kotlin</li>
+                                    <li>iOS - Swift</li>
+                                    <li>HTML, CSS & Javascript</li>
+                                    <li>IDE: Visual Studio, Visual Studio Code, Android Studio, XCode, Microchip Studio, Powershell ISE</li>
+                                </ul>
+                                <h6>Scripting Knowledge:</h6>                          
+                                <ul>
+                                    <li>NSIS</li>
+                                    <li>PowerShell</li>
+                                </ul>
+                                <h6>Operating Systems:</h6>
+                                <ul>
+                                    <li>All Windows Operating Systems</li>
+                                    <li>Windows Server 2019/2022</li>
+                                    <li>Linux (Kali Linux, Ubuntu, Debian)</li>
+                                    <li>Mac OS</li>
+                                </ul>
+                                <h6>Electrical Engineering:</h6>
+                                <ul>
+                                    <li>PCB Design with Eagle</li>
+                                    <li>Analog and Digital Circuit Design</li>
+                                </ul>
+                                <h6>Manufacturing &amp; Construction</h6>
+                                <ul>
+                                    <li>CAD with Fusion 360</li>
+                                    <li>3D Printing</li>
+                                    <li>CNC Lathe and Milling</li>
+                                </ul>
+                                <h6>Other Skills:</h6>
+                                <ul>
+                                    <li>Nmap, Metasploit, Wireshark</li>
+                                    <li>German (native)</li>
+                                    <li>English</li>
+                                    <li>Driving License Class B</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="workAttitudeContainer" class="aboutMeInnerContainer">
+                            <h5 id="workAttitudeHeader" onclick="onWorkAttitudeHeaderClicked()">+ My Characteristics</h5>
+                            <div id="workAttitudeContent">
+                                <hr>
+                                <h6>Strengths:</h6>
+                                <ul>
+                                    <li>I can work with a minimum of supervision</li>
+                                    <li>I do never surrender. I will find a solution for every problem.</li>
+                                    <li>I am self-taught. I fill knowledge gaps independently during work.</li>
+                                </ul>                            
+                                <h6>Weaknesses:</h6>                                
+                                <ul>
+                                    <li>I have no experience in team work. I have not had the opportunity to gain experience in this area until now, but I would be happy to develop this trait and contribute my work to a team.</li>
+                                    <li>I am proficient in understanding english texts and speech, but I have lack of experience to speak english fluently. But I would be pleased to have the opportunity to train this property.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="myEducationContainer" class="aboutMeInnerContainer">
+                            <h5 id="myEducationHeader" onclick="onEducationHeaderClicked()">+ My Education</h5>
+                            <div id="myEducationContent">
+                                <hr>
+                                <ul>
+                                    <li>1995 - 2000 - Hennebergisches Gymnasium "Georg Ernst" in Schleusingen</li>
+                                    <li>2000 - 2001 - State secondary school "Gerhard Hauptmann" in Schleusingen</li>
+                                    <li>2001 - 2006 - Apprenticeship as industrial mechanic for machines and systems technology at Böhm Fertigungstechnik GmbH in Suhl</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <p id="aboutMeReadMoreLink" onclick="onAboutMeReadMoreLinkClicked()">Read More</p>
+                </div>
+                <h1>Portfolio</h1>
+                <hr>
+                <div id="laroomySystemContainer" class="contentElement">
+                    <div class="contentHeaderContainer">
+                        <img class="contentElementLogo" src="res/symbol_128_transparent.png" />
+                        <h3 class="contentHeaderText">LaRoomy - Bluetooth Control</h3>
+                    </div>
+                    <p>
+                        The LaRoomy Bluetooth-Control-System is made to quickly implement Bluetooth remote control features in embedded projects. It consists of the LaRoomy App and the LaRoomy API, a remote framework for embedded systems.
+                    </p>
+                    <p>
+                        The cababilities of a remote device will be fetched by the LaRoomy App during the connection process and presented to the user. Now the user is able to control the remote device with the LaRoomy App through a unique app view customized for the specific remote device.
+                    </p>
+                    <img class="contentImage" src="res/concept_one_thin.png" alt="laroomy concept"/>
+                    <h5 class="contentSubHeader">
+                        &#x2022; LaRoomy App (Kotlin/Swift)
+                    </h5>
+                    <p>
+                        The LaRoomy App for Android is written in Kotlin and the LaRoomy App for iOS is written in Swift. The iOS version is currently under development and not available in the App Store by now.
+                    </p>
+
+                    <img class="contentImage" src="res/elegant_ui_prop_no_shadow.png" alt="laroomy app ui view"/>
+
+                    <a href="https://laroomy.com/" target="_blank">
+                        <img id="lr_overlay_image" src="res/visit_laroomy_website.png" alt="visit laroomy app website"/>
+                    </a>
+                    <h5 class="contentSubHeader">
+                        &#x2022; LaRoomy API for 32bit architectures (C/C++)
+                    </h5>
+                    <p>
+                        With the LaRoomy API all device capabilities can be defined in the source code of the remote device. The LaRoomy App adapts to the capabilities of the device and shows only necessary elements in the user interface which conforms to the properties of the device.
+                    </p>
+                    <p>
+                        The API is available for different microcontroller architectures: <a href="https://github.com/LaRoomy/LaRoomyApi_AtmelSAM" target="_blank">Atmel SAM</a>, <a href="https://github.com/LaRoomy/LaRoomyApi_Esp32" target="_blank">Espressif ESP32</a>, <a href="https://github.com/LaRoomy/LaRoomyApi_STM32" target="_blank">ST STM32</a> and <a href="https://github.com/LaRoomy/LaRoomyApi_Nordic_nRF52" target="_blank">Nordic nRF52</a>. <a href="https://github.com/LaRoomy/LaRoomyAPI_Remote_Examples" target="_blank">Examples</a> are provided for all libraries.
+                    </p>
+                    <br><br>
+                    <div class="subLinkButtons">
+                        <a style="flex: 1;" href="https://github.com/LaRoomy" target="_blank">
+                            <img class="githubImage" src="res/viewongithub.png" alt="github link image" />
+                        </a>
+                        <a style="flex: 2;" href="https://api.laroomy.com/" target="_blank">
+                            <img class="websiteImage" src="res/website_logo.png" alt="website link image" />
+                        </a>
+                    </div>
+
+                    <h5 class="contentSubHeader">
+                        &#x2022; LaRoomy API for 8bit architectures (C)
+                    </h5>
+                    <p>
+                        This is a minimized version of the LaRoomy API for 8bit architectures. It is written in C. The GitHub repository contains <a href="https://github.com/LaRoomy/LaRoomy_Min_API/tree/main/Examples" target="_blank">application examples</a> and a test board with <a href="https://github.com/LaRoomy/LaRoomy_Min_API/tree/main/Test_Circuit" target="_blank">schematic and pcb layout</a>.
+                    </p>
+                    <br><br>
+                    <div class="subLinkButtons">
+                        <a style="flex: 1;" href="https://github.com/LaRoomy/LaRoomy_Min_API" target="_blank">
+                            <img class="githubImage" src="res/viewongithub.png" alt="github link image" />
+                        </a>
+                        <a style="flex: 2;" href="https://api.laroomy.com/2023/07/minimized-api-version-for-8bit-systems.html" target="_blank">
+                            <img class="websiteImage" src="res/website_logo.png" alt="website link image" />
+                        </a>
+                    </div>
+                </div>
+                <br>
+
+                <div id="cncSuiteContainer" class="contentElement">
+                    <div class="contentHeaderContainer">
+                        <img class="contentElementLogo" src="res/cnc_suite_logo.png" />
+                        <h3 class="contentHeaderText">CNC Suite - Extended NC Editor</h3>
+                    </div>
+                    <p>
+                        This desktop app is a tool to create, edit and archive CNC programs. Moreover it handles the serial data transmission from and to a machines with RS232 interface. It is written in C++ with a litte shade of C and assembly. It is also available in the Microsoft Store.
+                    </p>
+                    <img class="contentImage" src="res/cnc_suite_image_bk5d6469.jpg" alt="cnc suite app user interface"/>
+                    <div class="subLinkButtons">
+                        <a style="flex: 1;" href="https://github.com/LaRoomy/CnC-Suite" target="_blank">
+                            <img class="githubImage" src="res/viewongithub.png" alt="github link image" />
+                        </a>
+                        <a style="flex: 2;" href="https://cnc-suite.blogspot.com/" target="_blank">
+                            <img class="websiteImage" src="res/website_logo.png" alt="website link image" />
+                        </a>
+                        <a style="flex: 3;" href="https://apps.microsoft.com/store/detail/cnc-suite/9NBFNR9FK6Z2?hl=en-us" target="_blank">
+                            <img class="storeImage" src="res/microsoftstoreimg.png" alt="cnc suite microsoft store link button" />
+                        </a>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="contentElement">
+                    <div class="contentHeaderContainer">
+                        <img class="contentElementLogo" src="res/epl2_logo.png" />
+                        <h3 class="contentHeaderText">Serial Data Transmission Utilities</h3>
+                    </div>
+                    <p>
+                        While working as a CNC-Programmer it was a recurrent problem to find an application for modern systems which is capable to communicate with older machines via RS232 interface to transmit G-Code based CNC programs. So I decided to create this app by myself.
+                    </p>
+                    <img class="contentImage" src="res/rs232_concept.jpg" alt="rs232 concept"/>
+                    <p>
+                        On my way to this objective and when I published the first UWP app <b>EPL-Exchange</b> (written in C#) on the Microsoft Store, I realized that this is not only a problem of mine. 
+                        Many other companies using older machines are concerned by this subject. With the feedback to my existing apps and information and requests from other companies, I created different solutions to cover many requirements including a platform independent wireless interface.
+                    </p>
+                    <br>
+                    <h5 class="contentSubHeader">
+                        &#x2022; EPL Exchange - UWP app written in C#
+                    </h5>
+                    <div class="contentSubText">
+                        <p>
+                            EPL Exchange is a tool to edit text based nc files and transmit them to or from a cnc machine. It is written for the Universal Window Platfrom in C#. When I later started to create electronic constructions, I added a terminal component to communicate with pcb modules over a UART interface.
+                        </p>
+                    </div>
+                    <img class="contentImage" src="res/epl_exchange_ui_img.jpg" alt="epl exchange app ui view"/>
+                    <div class="subLinkButtons">
+                        <a style="flex: 1;" href="https://epl-exchange.blogspot.com/" target="_blank">
+                            <img class="websiteImage" src="res/website_logo.png" alt="website link image" />
+                        </a>
+                        <a style="flex: 2;" href="https://apps.microsoft.com/store/detail/epl-exchange/9NBLGGH52605?hl=en-us&gl=us" target="_blank">
+                            <img class="storeImage" src="res/microsoftstoreimg.png" alt="cnc suite microsoft store link button" />
+                        </a>
+                    </div>
+                    <h5 class="contentSubHeader">
+                        &#x2022; Transfer - Win32 desktop app (C/C++)
+                    </h5>
+                    <div class="contentSubText">
+                        <p>
+                            The purpose of the Transfer app is to exchange programs with older cnc machines via RS232 interface. After publishing my app EPL-Exchange in the Microsoft Store, I often had user request how to run the app on older windows systems. For an UWP app this is not possible, but a win32 app could be downward compatible. Therefore the app is intentionally kept simple. It runs down to Windows XP SP1.
+                        </p>
+                    </div>
+                    <img class="contentImage" src="res/transfer_ui_image.jpg" alt="transfer app ui view"/>
+                    <div class="subLinkButtons">
+                        <a style="flex: 1;" href="https://github.com/LaRoomy/Transfer" target="_blank">
+                            <img class="githubImage" src="res/viewongithub.png" alt="github link image" />
+                        </a>
+                        <a style="flex: 2;" href="https://epl2-datatransmission.blogspot.com/p/transfer-app.html" target="_blank">
+                            <img class="websiteImage" src="res/website_logo.png" alt="website link image" />
+                        </a>
+                    </div>
+                    <h5 class="contentSubHeader">
+                        &#x2022; RS232 Websocket - A platform independent solution (C++)
+                    </h5>
+                    <div class="contentSubText">
+                        <p>
+                            One issue bothered me all the time: there was always the need for a cable connected to the machine and a desktop pc is needed in the vicinity of the machine. This was my motivation to develop a wireless and platform independent solution. A device based on an ESP8266 controller. The controller provides a websocket browser interface to enter or save programs and to transmit them to the machine. The controller converts the data and sends it over UART to a RS232 level converter.
+                        </p>
+                    </div>
+                    <img class="contentImage" src="res/rs232_websocket_schematic.jpg" alt="websocket schematic picture"/>
+                    <div class="contentSubText">
+                        <p>
+                            After some experiments I had the proove of concept, so I created the board with Eagle PCB Layout Editor. The case is created with Autodesk Fusion 360 and printed with my 3D printer. The firmware for the ESP8266 is written in C++ with Visual Studio Code. The front end web interface is written in html/css/javascript.
+                        </p>
+                    </div>
+                    <img class="contentImage" src="res/rs232_board_image.jpg" alt="websocket schematic picture"/>
+                    <div class="subLinkButtons">
+                        <a style="flex: 1;" href="https://github.com/LaRoomy/RS232_Websocket_Adapter" target="_blank">
+                            <img class="githubImage" src="res/viewongithub.png" alt="github link image" />
+                        </a>
+                        <a style="flex: 2;" href="https://epl2-datatransmission.blogspot.com/p/websocket.html" target="_blank">
+                            <img class="websiteImage" src="res/website_logo.png" alt="website link image" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

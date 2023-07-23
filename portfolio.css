@@ -1,0 +1,373 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    
+    background-image: linear-gradient(#303030, #45636e); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-size: 0;
+}
+
+#main {  
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Verdana', Helvetica, sans-serif;
+}
+
+#identPane {
+    margin: 0;
+    width: 320px;
+    text-align: center;
+    position: fixed;
+    float: left;
+}
+
+#identPane hr {
+    border: 0;
+    border-top: 1px solid #888888;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#contentPane {
+    margin: 0;
+    width: 580px;
+    vertical-align: top;
+    float: right;
+    overflow: auto;
+}
+
+#contentPane h1 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+.interDescP {
+    font-size: 14px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+#aboutMeReadMoreLink {
+    width: 120px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color:#95ccfd;
+    cursor: pointer;
+}
+
+#aboutMeReadMoreLink:hover {
+    color:#bcdffd;
+}
+
+#aboutMeContent {
+    display: none;
+}
+
+#contentPane hr {
+    border: 0;
+    border-top: 1px solid #888888;
+    margin: 0 20px;
+}
+
+#contentPane a {
+    color: #99ccff;
+    text-decoration: none;
+}
+
+#contentPane a:hover {
+    color: #66ffff;
+    text-decoration: none;
+}
+
+#profileImage {
+    width: 280px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+.contentImage {
+    width: 520px;
+    height: auto;
+    margin: 8px 20px;
+    pointer-events: none;
+}
+
+#lr_overlay_image {
+    margin-right: 20px;
+    margin-top: -100px;
+    width: 200px;
+    height: auto;
+    float: right;
+}
+
+@media only screen and (max-width: 900px) {
+    #main {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #identPane {
+        float: inherit;
+        width: auto;
+        text-align: center;
+        position: inherit;
+    }
+    #identPane hr {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    #contentPane {
+        float: inherit;
+        width: auto;
+    }
+    #profileImage {
+        width: 60%;
+        max-width: 500px;
+        height: auto;
+        margin-top: 20px;
+    }
+    .contentImage {
+        width: 90%;
+        height: auto;
+        max-width: 840px;
+        pointer-events: none;
+    }
+    #lr_overlay_image {
+        margin-right: 20px;
+        margin-top: -15%;
+        max-width: 280px;
+        width: 40%;
+        height: auto;
+        float: right;
+    }
+}
+
+#nameContainer {
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+#locationContainer {
+    font-size: 12px;
+    color: #999999;
+    margin: 2px;
+}
+
+#myPersonDescriptionCont {
+    font-size: 14px;
+    color: #cccccc;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#linkBar {
+    display: inline-block;
+    margin: 10px auto;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+#linkBar a {
+    margin: 2px;
+    color: #3b81fd;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #222222;
+    width: 110px;
+    display: inline-block;
+}
+
+#linkBar a:hover {
+    margin: 2px;
+    color: #95ccfd;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.contentElement {
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #5d6469;
+}
+
+.contentHeaderContainer {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #697680aa;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #222222;
+}
+
+.contentElementLogo {
+    width: 32px;
+    height: auto;
+    flex: 1;
+    max-width: 32px;
+}
+
+.contentHeaderText {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    vertical-align: middle;
+    flex: 2;
+}
+
+.contentElement p {
+    font-size: 14px;
+    margin-right: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
+    color: #eeeeee;
+}
+
+.githubImage {
+    width: 120px;
+    height: auto;
+}
+
+.websiteImage {
+    width: 120px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.storeImage {
+    width: 120px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.subLinkButtons {
+    display: flex;
+    margin: 2px 40px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.contentSubHeader {
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 10px 0px;
+    background-color: #222222;
+}
+
+.contentSubText {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+    .subLinkButtons {
+        display: inherit;
+        margin: 10px 20px;
+        padding-bottom: 10px;
+    }
+    .githubImage {
+        width: 150px;
+        height: auto;
+    }
+
+    .websiteImage {
+        width: 150px;
+        height: auto;
+        margin-left: 20px;
+    }
+
+    .storeImage {
+        display: none;
+    }
+}
+
+#aboutMeSection {
+    margin-bottom: 30px;
+}
+
+#aboutMeSection h5 {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#aboutMeSection h6 {
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#aboutMeSection h5:hover {
+    color: #33ccff;
+    cursor: pointer;
+}
+
+.aboutMeInnerContainer {
+    background-color: #2222227F;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#myEducationContainer {
+    margin-bottom: 30px;
+}
+
+#myStoryContent {
+    display: none;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#workAttitudeContent {
+    display: none;
+    margin-left: 10px;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+#mySkillzContent {
+    display: none;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#myEducationContent {
+    display: none;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
