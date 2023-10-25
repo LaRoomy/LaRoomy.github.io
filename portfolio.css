@@ -357,7 +357,7 @@ body {
     margin-bottom: 10px;
 }
 
-#myEducationContainer {
+#mySkillzContainer {
     margin-bottom: 30px;
 }
 
@@ -368,13 +368,6 @@ body {
     line-height: 22px;
 }
 
-#workAttitudeContent {
-    display: none;
-    margin-left: 10px;
-    line-height: 22px;
-    font-size: 14px;
-}
-
 #mySkillzContent {
     display: none;
     margin-left: 10px;
@@ -382,10 +375,5 @@ body {
     line-height: 22px;
 }
 
-#myEducationContent {
-    display: none;
-    margin-left: 10px;
-    font-size: 14px;
-    line-height: 22px;
-}
+
 
