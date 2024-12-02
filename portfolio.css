@@ -14,7 +14,7 @@ body {
 #main {  
     max-width: 900px;
     margin: 0 auto;
-    font-family: 'Verdana', Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #identPane {
@@ -47,7 +47,7 @@ body {
 }
 
 .interDescP {
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 24px;
     margin-right: 24px;
 }
@@ -159,13 +159,13 @@ body {
 }
 
 #locationContainer {
-    font-size: 12px;
+    font-size: 14px;
     color: #999999;
     margin: 2px;
 }
 
 #myPersonDescriptionCont {
-    font-size: 14px;
+    font-size: 16px;
     color: #cccccc;
     margin-left: 15px;
     margin-right: 15px;
@@ -174,7 +174,7 @@ body {
 #linkBar {
     display: inline-block;
     margin: 10px auto;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 34px;
 }
 
@@ -182,7 +182,7 @@ body {
     margin: 2px;
     color: #3b81fd;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     padding: 5px;
     border-radius: 5px;
     background-color: #222222;
@@ -194,7 +194,7 @@ body {
     margin: 2px;
     color: #95ccfd;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .contentElement {
@@ -226,7 +226,7 @@ body {
 }
 
 .contentHeaderText {
-    font-size: 20px;
+    font-size: 22px;
     margin-left: 10px;
     margin-right: 0px;
     margin-top: 0px;
@@ -237,7 +237,7 @@ body {
 }
 
 .contentElement p {
-    font-size: 14px;
+    font-size: 16px;
     margin-right: 20px;
     margin-left: 24px;
     margin-right: 24px;
@@ -269,7 +269,7 @@ body {
 }
 
 .contentSubHeader {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     padding-left: 30px;
     padding-right: 30px;
@@ -329,7 +329,7 @@ body {
 }
 
 #aboutMeSection h5 {
-    font-size: 15px;
+    font-size: 16px;
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
