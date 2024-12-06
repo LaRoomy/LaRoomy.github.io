@@ -39,38 +39,15 @@ function onMyStoryHeaderClicked(){
         {
             // show the content
             myStoryHeaderState = 1;
-            myStoryHeader.innerHTML = '- My Story';
+            myStoryHeader.innerHTML = '- Background';
             myStoryContent.style.display = 'inline';
         }
         else
         {
             // hide the content
             myStoryHeaderState = 0;
-            myStoryHeader.innerHTML = '+ My Story';
+            myStoryHeader.innerHTML = '+ Background';
             myStoryContent.style.display = 'none';
-        }
-    }
-}
-
-function onWorkAttitudeHeaderClicked(){
-    var workAttitudeHeader = document.getElementById('workAttitudeHeader');
-    var workAttitudeContent = document.getElementById('workAttitudeContent');
-
-    if(workAttitudeHeader != null && workAttitudeContent != null)
-    {
-        if(workAtttituteHeaderState == 0)
-        {
-            // show the content
-            workAtttituteHeaderState = 1;
-            workAttitudeHeader.innerHTML = '- My Characteristics';
-            workAttitudeContent.style.display = 'inline';
-        }
-        else
-        {
-            // hide the content
-            workAtttituteHeaderState = 0;
-            workAttitudeHeader.innerHTML = '+ My Characteristics';
-            workAttitudeContent.style.display = 'none';
         }
     }
 }
@@ -85,38 +62,17 @@ function onMySkillzHeaderClicked(){
         {
             // show the content
             mySkillzHeaderState = 1;
-            mySkillzHeader.innerHTML = '- My Skillz';
+            mySkillzHeader.innerHTML = '- Knowledge';
             mySkillzContent.style.display = 'inline';
         }
         else
         {
             // hide the content
             mySkillzHeaderState = 0;
-            mySkillzHeader.innerHTML = '+ My Skillz';
+            mySkillzHeader.innerHTML = '+ Knowledge';
             mySkillzContent.style.display = 'none';
         }
     }
 }
 
-function onEducationHeaderClicked(){
-    var myEducationHeader = document.getElementById('myEducationHeader');
-    var myEducationContent = document.getElementById('myEducationContent');
 
-    if(myEducationHeader != null && myEducationContent != null)
-    {
-        if(myEducationHeaderState == 0)
-        {
-            // show the content
-            myEducationHeaderState = 1;
-            myEducationHeader.innerHTML = '- My Education';
-            myEducationContent.style.display = 'inline';
-        }
-        else
-        {
-            // hide the content
-            myEducationHeaderState = 0;
-            myEducationHeader.innerHTML = '+ My Education';
-            myEducationContent.style.display = 'none';
-        }
-    }
-}
