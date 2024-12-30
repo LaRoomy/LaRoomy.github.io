@@ -223,6 +223,7 @@ body {
     height: auto;
     flex: 1;
     max-width: 32px;
+    pointer-events: none;
 }
 
 .contentHeaderText {
